@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+.all-content{
+  background: #f7f5f2;
+}
+html::-webkit-scrollbar-track{
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+  background: #41a5be;
+  border-radius: 10px;
+}
+html::-webkit-scrollbar{
+  width: 10px;
+}
+/* navbar */
+#navbar{
+  background-color: rgb(148, 204, 226);
+  font-family: 'Roboto', sans-serif;
+}
+#logo img{
+  border-radius:100px;
+  width:120px;
+  margin-left: 40px;
+}
+.navbar-nav{
+  margin-left: 50px;
+}
+.nav-item .nav-link{
+  color: black;
+  margin-left: 10px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.nav-item .nav-link:hover{
+  background: #f7f5f2;
+  border-radius: 5px;
+  color: black;
+}
+#navbar form button{
+  background: black;
+  color: white;
+  border: 1px solid white;
+}
+/* navbar */
+/* home content */
+#home{
+    width: 100%;
+    height: 90vh;
+    background-color:black;
+    background-size: cover;
+    background-position: 80%;
+    font-family: 'Roboto', sans-serif;
+}
+.video-background{
+  position:relative;
+  z-index:1;
+  text-align:left;
+  display:flex;
+  height: 90vh;
+  width:90vw;
+  justify-content:center;
+  z-index:0;
+  
+  
+}
+.content{
+  padding-top: 210px;
+  margin-left: 56px;
+}
+
+#btn{
+  width: 150px;
+  height: 36px;
+  margin-top:400px;
+  background: white;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+#btn:hover{
+  background: #81c7e8;
+  color: white;
+}
+/* home content */
+
+
+
+/* menu */
+.menu{
+  width: 100%;
+  background: #f7f5f2;
+  font-family: 'Roboto', sans-serif;
+}
+.heading3{
+  text-align: center;
+  font-size: 30px;
+  color: #b2744c;
+  font-weight: bold;
+  border-bottom: 2px solid #b2744c;
+}
+#container2{
+  margin-top: 20px;
+}
+.menu .card{
+  background: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.star i{
+  color: #b2744c;
+}
+.menu h3{
+  color: #b2744c;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 25px;
+}
+.menu p{
+  font-size: 16px;
+  color: #b2744c;
+  padding-top: 10px;
+}
+.menu p span{
+  float: right;
+  cursor: pointer;
+}
+/* menu */
+
+
+/*top restaurants*/
+.restaurant{
+  width: 100%;
+  background: #f7f5f2;
+  font-family: 'Roboto', sans-serif;
+}
+.img-rest{
+  height:fixed;
+  width:auto;
+}
+.img-rest2,
+.img-rest3{
+  height:300px;
+  width:auto;
+}
+.dot {
+      height: 4px;
+      width: 4px;
+      background-color:black;
+      border-radius: 50%;
+      display: inline-block;
+      margin: 0 8px;
+    }
+
+.in{
+  margin-left:60px;
+}
+.star {
+  color:#1e1d1c;
+  
+}
+.cake{
+  margin-right:200px;
+}
+.biryani{
+  margin-right:150px;
+}
+.restaurant .card{
+  background: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 30px;
+}
+.restaurant h3{
+  color: #b2744c;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+/* top restaurants */
+
+
+
+
+
+/* product */
+.product{
+  width: 100%;
+  background: #f7f5f2;
+  font-family: 'Roboto', sans-serif;
+}
+.heading4{
+  text-align: center;
+  color: #b2744c;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 70px;
+  border-bottom: 2px solid #b2744c;
+}
+#container3{
+  margin-top: 30px;
+}
+.product h3{
+  text-align: center;
+  color: #b2744c;
+  font-size: 23px;
+}
+.product p{
+  color: #b2744c;
+  padding-top: 10px;
+}
+.product p span{
+  float: right;
+  cursor: pointer;
+}
+/* product */
+
+/* items*/
+.menu-item {
+      border-bottom: 1px solid #e0e0e0;
+      padding: 20px 0;
+}
+    .menu-title {
+      font-weight: bold;
+    }
+    .menu-price {
+      color: #000;
+      margin-bottom: 5px;
+    }
+    .menu-rating {
+      color: green;
+      font-size: 14px;
+    }
+    .add-btn {
+      width: 80px;
+    }
+.main{
+  margin-left:500px;
+  font-weight: bold;
+}
+.mb-4{
+  font-weight:bold;
+}
+.info-card {
+      border-radius: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      padding: 20px;
+      margin-left: 400px;
+      background-color:white;
+    }
+
+    .rating {
+      color: green;
+      font-weight: bold;
+    }
+     
+ /*items*/   
+
+
+
+/* feedback */
+
+.feedback .container{
+  width: 100%;
+  height: 80vh;
+  background: white;
+  background: linear-gradient(90deg, white 80%, skyblue);
+  border-radius: 10px;
+}
+.heading6{
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 70px;
+}
+.heading6 span{
+  color: skyblue;
+}
+.feedback input{
+  width: 360px;
+  border: none;
+  border-bottom: 1px solid;
+}
+
+#feedback-btn{
+  width: 200px;
+  height: 36px; 
+  border: none;
+  background:skyblue;
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+
+/* contact */
+
+
+
+
+
+/* mind */
+.mind{
+  width: 100%;
+  background: #f7f5f2;
+}
+.mind h1{
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+}
+.mind h1 span{
+  color:skyblue;
+}
+.mind .container{
+  margin-top: 60px;
+}
+
+#mindbtn{
+  width: 200px;
+  height: 36px;
+  border: none;
+  color: white;
+  background:skyblue;
+  cursor: pointer;
+}
+/* mind */
+
+
+
+
+
+
+/* footer */
+#footer{
+  width: 100%;
+  background:skyblue;
+  margin-top: 50px;
+}
+.footer-logo img{
+  width: 180px;
+  border-radius: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+#footer .socail-links i{
+  font-size: 17px;
+  margin-left: 10px;
+  margin-top: 30px;
+  padding: 10px;
+  background: black;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.credite{
+  color: white;
+  margin-top: 20px;
+}
+.credite{
+  text-shadow: 0px 0px 1px black;
+}
+.credite a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.credite a span{
+  color: black;
+}
+.copyright span{
+  color: black;
+}
+/* footer */
+
+/*login*/
+.login{
+  padding:40px;
+  border-radius:12px;
+  background:linear-gradient(90deg, white 60%, skyblue);
+  font-family:'Roboto', sans-serif;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: max-content;
+  margin:80px auto;
+  font-weight: bold;
+
+}
+
+
+ .login h2{
+margin-bottom: 30px;
+text-align:center;
+color:#333;
+
+font-weight:bold;
+ }
+.form-label{
+  font-weight:bold;
+  font-size: medium;
+  color:black;
+  margin-right:300px;
+  
+}
+
+.mt-3{
+  margin-right:400px;
+  width:max-content;
+}
+/*login*/
+
+
+
+
+html{
+  scroll-behavior: smooth;
+}
+.arrow{
+  position: fixed;
+  border-radius: 50px;
+  height: 50px;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+}
